@@ -9,12 +9,10 @@ On Error GoTo MainStop
  With .View
  .ShowHiddenText = True
  End With
- End With
  Else
  With ActiveWindow
  With .View
  .ShowHiddenText = False
- End With
  End With
  End If
 MainStop:
